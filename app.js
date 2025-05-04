@@ -115,7 +115,7 @@ function updateCart() {
 
   cartCount.textContent = count;
   cartCountModal.textContent = count;
-  totalPrice.textContent = total.toFixed(2);
+  totalPrice.textContent = total.toFixed(3);
 
   // Tugmalarga qayta event biriktirish
   document.querySelectorAll(".change-qty").forEach(button => {
